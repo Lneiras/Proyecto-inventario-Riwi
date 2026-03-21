@@ -1,8 +1,8 @@
-from aspectos_visuales import *
-from FAgregar import *
-from Mostrar import *
-from Estadísticas import *
-from Otras_funciones import *
+from Funciones.aspectos_visuales import *
+from Funciones.FAgregar import *
+from Funciones.Mostrar import *
+from Funciones.Estadísticas import *
+from Funciones.Otras_funciones import *
 
 
 def menu():
