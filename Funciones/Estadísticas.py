@@ -1,4 +1,4 @@
-from aspectos_visuales import *
+from Funciones.aspectos_visuales import *
 
 def Calcular_estadísticas(inventario):
     limpiar_pantalla()

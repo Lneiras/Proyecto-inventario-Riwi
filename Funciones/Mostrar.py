@@ -1,4 +1,4 @@
-from aspectos_visuales import *
+from Funciones.aspectos_visuales import *
 
 def Mostrar_inventario(inventario):
     limpiar_pantalla()

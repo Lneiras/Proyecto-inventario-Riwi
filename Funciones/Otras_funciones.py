@@ -1,4 +1,4 @@
-from aspectos_visuales import *
+from Funciones.aspectos_visuales import *
 
 def salir(): #Función de salida, encargada de cerrar el programa
     Saliendo()
