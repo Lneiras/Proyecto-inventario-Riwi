@@ -1,18 +1,29 @@
 from Funciones.aspectos_visuales import *
 
 
-def agregar_producto():
+def agregar_producto(lista_inventario):
     limpiar_pantalla()
-    print(f"{Magenta}\nAgregando Productos{Reset}")
+    LineaA = "Agregando productos"
+    print(f"{bordeM}")
+    print(f"{Verde}{LineaA:^{AnchoM}}{Reset}")
+    print(f"{bordeM}")
     while True:
-        producto = input(f"{Azul}Ingresa el producto que deseas agregar: {Reset}").strip() 
+        producto = input(f"\n{Azul}Ingresa el producto que deseas agregar: {Reset}").strip().lower()
         #strip() elimina los espacios vacios al inicio y al final del texto
         #con este if hacemos que el nombre del producto sea valido(no numeros, no simbolos, no espacios vacios)
+                
         if not producto.replace(" ", "").isalpha() or len(producto) == 0:  
         #replace() elimina los espacion mientras se realiza la validación 
         # isalpha() verifica que el texto solo contenga letras y len() verifica que el texto no este vacio
             limpiar_pantalla()
             print(f"{Rojo}Error: El nombre que intentas agregar no es valido.{Reset}")
+
+        existe = any(i['nombre'].lower() == producto for i in lista_inventario)
+        if existe:
+            limpiar_pantalla()
+            print(f"{Rojo}Error: El producto '{producto}' ya existe en el inventario.{Reset}")
+            continue 
+
         else:
             limpiar_pantalla()
             lineaA1 = f"El producto {producto} ha sido agregado exitosamente"

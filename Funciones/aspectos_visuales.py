@@ -36,6 +36,7 @@ def limpiar_pantalla():
 #Estas funciones un toque visual para el usuario
 
 def Volviendo():
+    input(f"\n{Amarillo}Presiona Enter para volver al menú{Reset}")
     import time
     print("\nVolviendo...")
     time.sleep(1.5)  # Pausa de 1.5 segundos
@@ -61,4 +62,11 @@ def Saliendo():
     import time
     print("\nSaliendo...")
     time.sleep(1.5)  # Pausa de 1.5 segundos
+    limpiar_pantalla()
+
+def Regresando():
+    limpiar_pantalla()
+    import time
+    print(f"{Azul}Regresando...{Reset}")
+    time.sleep(1)  # Pausa de 1 segundo
     limpiar_pantalla()
