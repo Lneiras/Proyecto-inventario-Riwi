@@ -1,13 +1,10 @@
 # Inventario
 
-Este proyecto es un programa simple de gestión de inventario desarrollado en Python.
-La aplicación permite registrar productos ingresando el nombre del producto, la cantidad y el precio.
-
-El sistema guarda los productos registrados y permite visualizar la lista de productos agregados. También incluye una opción para salir del programa.
+Proyecto desarrollado en Python como sistema de gestión de inventario por consola. Diseñado con una arquitectura modular, permite al usuario agregar, buscar, actualizar y eliminar productos, calcular estadísticas del inventario y guardar o cargar los datos desde archivos CSV, todo desde una interfaz visual interactiva en la terminal.
 
 ## Diagrama de flujo
 
-![This is an alt text.](https://raw.githubusercontent.com/Lneiras/Inventario/refs/heads/main/Diagrama%20de%20flujo.png.png)
+![This is an alt text.](https://raw.githubusercontent.com/Lneiras/Proyecto-inventario-Riwi/refs/heads/feature/HU3_Modulo1/Docs/Inventario.drawio.png)
 
 ## Funcionalidades
 
