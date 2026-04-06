@@ -73,11 +73,10 @@ main()
 
 
 ''' 
-HU2
-En esta historia de usuario se agrega la parte de calcular estadisticas,
-para saber la cantidad total de unidades agregadas al inventario y el valor total del mismo.
-En esta semana he decidido separar todas las funciones en un archivo dedicado, 
-esto para que se pueda revisar y cambiar sin afectar a otras funciones.
-También se han aplicado funciones que mejoran el aspecto y se han aplicado colores, 
-esto con la idea de mejorar la parte visual del programa y que el usuario lo vea más claro.
+HU3
+En esta historia de usuario se agrega el uso de archivos CSV para la persistencia de datos
+También se agregan las funciones (modularizadas) de Buscar, Actualizar y Eliminar producto.
+En este HU se modifica el diagrama de flujo y se actualiza el Readme para que contenga la 
+Información total del programa, además de que se agrega a la función de calcular estadísticas.
+La parte de ver el producto más caro y el producto con más stock del inventario.
 '''
